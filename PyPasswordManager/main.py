@@ -8,7 +8,7 @@
 def view():
     with open("passwords.txt", 'r') as fileofPwdsr:
         for line in fileofPwdsr.readlines():
-            print(line)
+            print(line) 
 
 # Add uses .write method to write what is given as input
 def add():
