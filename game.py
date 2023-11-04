@@ -1,4 +1,5 @@
 # Simplest RPS game in Python:
+# when the option of you and computer is the same, it might scold you.... Sorry!
 
 import random
 
