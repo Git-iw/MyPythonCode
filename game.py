@@ -12,7 +12,9 @@ computerInput = random.choice(gameOptions)
 if myInput == "rock" and computerInput == "scissors":
     print(f"My Option: {computerInput}")
     print("You Win!!")
-elif myInput == "scisssors" and computerInput == "rock":
+elif myInput == computerInput:
+    print("Sorry, same option was given by me!")
+elif myInput == "scissors" and computerInput == "rock":
     print(f"My Option: {computerInput}")
     print("I Win!!")
 elif myInput == "paper" and computerInput == "rock":
