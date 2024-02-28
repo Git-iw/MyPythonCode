@@ -1,6 +1,5 @@
 # Main file for password manager
-# Babai, idi best kaadu, secureu kaadu, edo showoff ki paduntadhanii chesthunna
-# kavali ani savagottaku(Leave me alone Please leave me alone)
+
 
 # Creating functions for easy code
 
