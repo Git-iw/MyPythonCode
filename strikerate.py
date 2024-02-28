@@ -5,7 +5,7 @@ def strikeRate(balls, runs):
         strike_rate = float((runs/balls) * 100)
         return strike_rate
     except:
-        print("Em rayalo thelidha cheppesh!")
+        print("Em rayalo thelidha neeku!")
 
 
 runsInput = int(input("Runs Scored: "))
