@@ -1,5 +1,3 @@
-from fractions import Fraction
-
 def strikeRate(balls, runs):
     try:
         strike_rate = float((runs/balls) * 100)
