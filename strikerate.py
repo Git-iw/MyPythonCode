@@ -9,5 +9,5 @@ def strikeRate(balls, runs):
 
 
 runsInput = int(input("Runs Scored: "))
-ballsInput = int(input("Balls Scored: "))
+ballsInput = int(input("Balls Survived: "))
 print(strikeRate(ballsInput, runsInput))
