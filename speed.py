@@ -1,3 +1,5 @@
+# Will update the code so that it will also give the speed with proper distance and time.
+
 import sys
 
 def main():
@@ -7,7 +9,7 @@ def main():
         speed = speedCalculator(distance, time)
         print(f"{speed}")
     except:
-        sys.exit("Maths chaduvukoledha?")
+        sys.exit("Invalid Input Given")
 
 def speedCalculator(distance, time):
     speed = float(distance/time)
