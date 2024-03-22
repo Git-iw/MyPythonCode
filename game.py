@@ -30,5 +30,5 @@ elif myInput == "paper" and computerInput == "scissors":
     print(f"My Option: {computerInput}")
     print("I Win!!")
 else:
-    print("Unnayi ray be cheppesh.")
+    print("Invalid Option Given")
 
