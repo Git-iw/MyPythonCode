@@ -6,4 +6,4 @@ try:
     runRate = float(runsInput/oversInput)
     print(f"Run Rate: {runRate}")
 except:
-    sys.exit("Em rayalo thelidha neeku!")
+    sys.exit("Incorrect Input Given")
