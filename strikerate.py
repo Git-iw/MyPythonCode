@@ -1,11 +1,9 @@
-from fractions import Fraction
-
 def strikeRate(balls, runs):
     try:
         strike_rate = float((runs/balls) * 100)
         return strike_rate
     except:
-        print("Em rayalo thelidha neeku!")
+        print("Invalid Input")
 
 
 runsInput = int(input("Runs Scored: "))
